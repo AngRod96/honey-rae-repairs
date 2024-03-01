@@ -1,3 +1,10 @@
+
+import "./App.css"
+import { TicketList } from "./components /tickets/ticketList.jsx"
+
 export const App = () => {
-  return <div className="welcome">Welcome to your first React Application!</div>
+  return <>
+    <TicketList /> 
+    
+  </>
 }
